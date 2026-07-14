@@ -1,6 +1,6 @@
 <!--
 OpenCharly PR template. main advances ONLY through this PR + a green
-charly/claude-validation status posted by the fresh pr-validator agent, which
+charly/pr-validator status posted by the fresh pr-validator agent, which
 merges it. Fill EVERY section — the validator FAILS an empty/template-only body.
 See CLAUDE.md "Post-Execution Policies" + /charly-internals:git-workflow.
 Do NOT compute the release CalVer here: use a placeholder CHANGELOG/<CalVer>.md;
