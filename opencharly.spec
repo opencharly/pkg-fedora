@@ -18,7 +18,7 @@
 Name:           opencharly
 Version:        %{ovver}
 Release:        1%{?dist}
-Summary:        OpenCharly container management CLI
+Summary:        OpenCharly CLI — the fully equipped factory floor for you and your agents
 License:        MIT
 URL:            https://github.com/opencharly/charly
 ExclusiveArch:  x86_64
@@ -58,11 +58,12 @@ Suggests:       xorg-x11-drv-nvidia-cuda
 Suggests:       kubernetes-client
 
 %description
-OpenCharly container management CLI — compose, build, deploy, and manage
-container boxes from a library of fully configurable candies. This package
-ships the `charly` binary plus the welded command plugins beside it at
-/usr/lib/charly/plugins (so `charly doctor`/`clean`/`vm`/… resolve project-less);
-dnf auto-resolves its mandatory dependencies.
+OpenCharly CLI — the fully equipped factory floor for you and your agents.
+Compose, build, deploy, and evaluate boxes from a library of fully
+configurable candies. This package ships the `charly` binary plus the welded
+command plugins beside it at /usr/lib/charly/plugins (so `charly
+doctor`/`clean`/`vm`/… resolve project-less); dnf auto-resolves its mandatory
+dependencies.
 
 %install
 install -Dm0755 %{ovbin} %{buildroot}%{_bindir}/charly
