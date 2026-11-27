@@ -18,7 +18,7 @@
 Name:           opencharly
 Version:        %{ovver}
 Release:        1%{?dist}
-Summary:        OpenCharly CLI — the fully equipped factory floor for you and your agents
+Summary:        OpenCharly CLI — The Agentic DevOps Factory for you and your agents
 License:        MIT
 URL:            https://github.com/opencharly/charly
 ExclusiveArch:  x86_64
@@ -58,7 +58,7 @@ Suggests:       xorg-x11-drv-nvidia-cuda
 Suggests:       kubernetes-client
 
 %description
-OpenCharly CLI — the fully equipped factory floor for you and your agents.
+OpenCharly CLI — The Agentic DevOps Factory for you and your agents.
 Compose, build, deploy, and evaluate boxes from a library of fully
 configurable candies. This package ships the `charly` binary plus the welded
 command plugins beside it at /usr/lib/charly/plugins (so `charly
